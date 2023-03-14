@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+.debug{
+  background-color: blue;
+  border: 1px solid black;
+  min-height: 50px;
+}
+
 .ct-navbar{
   width: 100%;
   background-color: red;
@@ -27,11 +33,12 @@ aside{
   width: 10%;
 }
 
-main{
-  background-color: red;
-  height: 80px;
+.main-top{
+  background-color: #1B72E8;
+  height: 100px;
   width: 90%;
+  float: right;
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
 }
 
