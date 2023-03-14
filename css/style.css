@@ -1,4 +1,37 @@
-main{
-  height: 90px;
-  background-color: aqua;
+.ct-container{
+  background-color: #F8F9FA !important;
+  height: 80px ;
+  width: 100%;
 }
+
+.ct-navbar{
+  width: 100%;
+  background-color: red;
+  height: 50px;
+}
+
+.ct-navbar a{
+  cursor: pointer;
+}
+
+#icon-navbar{
+  cursor: pointer;
+}
+
+#icon-navbar i:last-child{
+  color: #FF8F00;
+}
+
+aside{
+  background-color: #051E34;
+  width: 10%;
+}
+
+main{
+  background-color: red;
+  height: 80px;
+  width: 90%;
+  display: flex;
+  justify-content: end;
+}
+
