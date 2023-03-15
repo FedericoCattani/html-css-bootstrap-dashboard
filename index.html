@@ -16,64 +16,69 @@
   <title>Dashboard</title>
 </head>
 <body>
-  <div class="ct-container container-fluid d-flex justify-content-center align-items-center">
-    <nav class="ct-navbar navbar bg-body-tertiary">
-      <a class="navbar-brand">
-        <img src="img/logo.svg" alt="">
-      </a>
-      <form class="container">
-        <div class="input-group">
-          <span class="input-group-text" id="basic-addon1">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </span>
-          <input type="search" class="form-control ms-0" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
-          <span id="icon-navbar">
-            <i class="fa-solid fa-bars ms-2"></i>
-            <i class="fa-solid fa-circle-question ms-3"></i>
-            <i class="fa-solid fa-ellipsis-vertical ms-3"></i>
-            <i class="fa-solid fa-bell ms-3"></i>
-          </span>
-        </div>
+
+<div class="main-wrapper">
+ <header>
+  <div class="container-fluid d-flex justify-content-between align-items-center debug">
+    <div class="header-left de_bug">
+      
+    </div>
+
+    <div class="header-center text-center">
+      
+      <form action="form-control">
+        <input type="search" name="Search" id="" placeholder="Search">
       </form>
-    </nav>
+    </div>
+
+    <div class="header-right ">
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-circle-question"></i>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+      <i class="fa-solid fa-bell"></i>
+    </div>
   </div>
+ </header>
 
  <main>
-    <div class="main-top">
-       <div class="container d-flex justify-content-around">
-        <div class="row cols-sm-1">
-          <div class="col-4 debug">
-
-          </div>
-          <div class="col-4 debug">
-
-          </div>
-          <div class="col-4 debug">
-
-          </div>
-        </div>
-       </div>
-    </div>
-
-    <div class="main-bottom">
-      <div class="container">
-
-      </div>
-
-    </div>
-   
-  </main>
 
   <aside>
-    <div class="container vh-100 d-flex flex-column">
-      <ul class="list-group list-group-flush mt-3 border-0">
-        <li class="list-group-item border-0">An item</li>
-        <li class="list-group-item border-0">A second item</li>
-        <li class="list-group-item border-0">A third item</li>
-      </ul>
+    <div class="aside-container">
+      <div class="aside-nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="#"> 
+                <i class="fa-solid fa-house"></i>Home
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-chart-simple"></i> Stats
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-signal"></i>Signals
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="aside-bottom">
+        <a href="#">
+          <i class="fa-solid fa-gear"></i> Admin
+        </a>
+      </div>
+      
+
+      </div>
     </div>
   </aside>
 
+ </main>
+</div>
  
 </body>
 </html>
