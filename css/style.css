@@ -34,12 +34,11 @@ a{
 
 
 .header-left{
+  min-height: 30px;
+  width: 200px;
   cursor: pointer;
   background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: end;
-  align-items: center;
 }
 
 .header-left i{
@@ -78,7 +77,7 @@ main{
   height: calc(100% - 90px);
 }
 
-/*aside*/
+/*ASIDE*/
 
 aside{
   width: 150px;
@@ -123,4 +122,18 @@ aside{
 
 .aside-bottom a i{
   margin-right: 5px;
+}
+
+/*MAIN CONTENT*/
+
+.content-top{
+  background-color: red;
+  height: 10%;
+  width: 100%;
+}
+
+.content{
+  background-color: #FF8F00;
+  height: 100%;
+  width: 100%;
 }
